@@ -1,0 +1,89 @@
+.rightnav{
+    width: 18vw;
+    height: 96vh;
+    background-color: rgb(10, 10, 10);
+    position: relative;
+    left: 82vw;
+    top: -192vh;
+}
+.header2{
+    width: 200px;
+    height: 3.5vh;
+    border-radius: 4px;
+    background-color: rgb(63, 61, 61);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 2px;
+    left: 40px;
+    
+}
+.name1{
+    color: white;
+
+}
+.name2{
+    color: rgb(31, 4, 165);
+    background-color: rgb(133, 244, 244);
+    border-radius: 3px;
+    width: 55px;
+    text-align: center;
+    margin: 3px 0px;
+}
+.horizontalline2{
+    width: 18vw;
+    height: 0.15vw;
+    background-color: rgb(109, 106, 106);
+    position: relative;
+    top: 9px;
+}
+.content1{
+    color: white;
+    margin: 25px;
+   
+}
+.edit{
+    position: relative;
+    left: 10px;
+}
+.content2{
+background-color:rgb(109, 106, 106) ;
+color: white;
+font-weight: bold;
+font-size: 17px;
+width: 13vw;
+height: 33px;
+margin: 10px;
+padding: 5px 20px;
+border-radius: 5px;
+
+}
+.content3{
+    background-color:rgb(109, 106, 106) ;
+    color: rgba(255, 255, 255, 0.895);
+    width: 14.2vw;
+    height: 12vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.btn{
+    color: white;
+    background-color:rgb(57, 57, 249) ;
+    width: 14.7vw;
+    height: 4vh;
+    margin: 10px 17px;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(72, 149, 244);
+    cursor: pointer;
+}
+.icon8{
+  position: relative;
+  top: -36.5vh;left: 10px;
+  color: white;
+}
