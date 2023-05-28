@@ -1,112 +1,122 @@
-.sidenav{
-    width: 15vw;
-    height: 96vh;
+.sidenav {
+  width: 15vw;
+  height: 96vh;
 }
-.containers{
-    width: 15vw;
-    height: 96vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-   
-    background-color:rgb(0, 0, 0);
+.containers {
+  width: 15vw;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: rgb(0, 0, 0);
 }
-.name{
-    font-weight: bold;
-    font-size: 18px;
-    color: white;
-    margin: 20px 25px;
-    padding-top:10px;
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  margin: 20px 25px;
+  padding-top: 10px;
 }
 
-.input1{
-    color: white;
-    margin: 20px 20px;
+.input1 {
+  color: white;
+  margin: 20px 20px;
 }
-.input1:hover{
-    background-color:rgb(109, 106, 106) ;
-    cursor: pointer;
-    border-radius: 7px;
-    height: 30px;
+.input1:hover {
+  background-color: rgb(109, 106, 106);
+  cursor: pointer;
+  border-radius: 7px;
+  height: 30px;
 }
-.input2{
-    color: white;
-    background-color:rgb(109, 106, 106) ;
-    margin: 17px 20px;
-    border-radius: 7px;
-    height: 30px;
-    padding: 4px;
+.input2 {
+  color: white;
+  background-color: rgb(109, 106, 106);
+  margin: 17px 20px;
+  border-radius: 7px;
+  height: 30px;
+  padding: 4px;
 }
-.bottom{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 20px;
-    color: white;
-    position: relative;
-    top: 120px;
+.bottom {
+  margin-bottom: 25px;
 }
-.list2{
-    width: 73px;
-    display: flex;
-    justify-content: right;
-    border-radius: 4px;
-    background-color:rgb(109, 106, 106); 
-   padding-right: 5px;
+.list2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px;
 }
-.list3{
-    width: 73px;
-    display: flex;
-    justify-content: center;
-    border-radius: 4px;
-    color: rgb(31, 4, 165);
-    background-color: rgb(133, 244, 244); 
+.list3 {
+  background-color: aqua;
+  width: 85px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(32, 32, 224);
 }
-.verticalLine{
-    width: 0.15vw;
-    height: 96vh;
-    background-color: rgb(109, 106, 106);
-    position: relative;
-    left: 14.85vw;
-    top: -96vh;
+
+.nameicon {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(109, 106, 106);
+  width: 85px;
+  height: 25px;
+  border-radius: 5px;
 }
-.icon1{
-    background-color: blue;
-    border-radius: 50px;
-    margin: -3px 10px;
+.amount {
+  margin-right: 8px;
+  margin-top: 2px;
+  color: white;
 }
-.icon2{
-    margin: -4px 0px -4px 70px;
+
+.verticalLine {
+  width: 0.15vw;
+  height: 96vh;
+  background-color: rgb(109, 106, 106);
+  position: relative;
+  left: 14.85vw;
+  top: -96vh;
 }
-.icon3{
-    margin: -2px 10px;
+.icon1 {
+  background-color: blue;
+  border-radius: 50px;
+  margin: -3px 10px;
 }
-.icon9{
-    position: relative;
-    top: 35px;
-    left: -11vw;
+.icon2 {
+  margin: -4px 0px -4px 60px;
 }
-.icon10{
-  color:white;
+.icon3 {
+  margin: -2px 10px;
 }
-.icon11{
-    color:rgb(71, 51, 197) ;
+.icon9 {
+  color: white;
 }
-.icon12{
-    color: white;
-    border-radius: 50px;
-    background-color:rgb(65, 44, 169) ;
-    position: relative;
-    top: -109.2vh;
-    left: 30px;
+.icon10 {
+  color: white;
 }
-.icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color:rgb(109, 106, 106);
-    width: 50px;
-    position: relative;
+.icon11 {
+  color: rgb(71, 51, 197);
+}
+.icon12 {
+  background-color: blue;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(109, 106, 106);
+  width: 50px;
+  /* position: relative;
     top: -40px;
-    left: 53px;
-    border-radius: 10px;
+    left: 53px; */
+  border-radius: 10px;
+}
+.list20 {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 120px 6px 30px;
 }
